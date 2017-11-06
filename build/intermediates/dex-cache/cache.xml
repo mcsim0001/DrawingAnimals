@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\android\WriteLettersProject\FingerPaintAnimals\ProjectAnimals\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f508f6225f590390cbcecb335d9978c5a5faf6f1">
+        <dex dex="C:\android\WriteLettersProject\FingerPaintAnimals\ProjectAnimals\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f04c0a9e0d4c7f9fc96bd73fdc31956337b03efb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\android\WriteLettersProject\FingerPaintAnimals\ProjectAnimals\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\android\WriteLettersProject\FingerPaintAnimals\ProjectAnimals\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9004884b92cea271b9bb4b9c498b7509c7e73ff5\classes.dex" />
+    </item>
+
+</items>
