@@ -4,5 +4,8 @@
     <string name="btn_positive">Yes</string>
     <string name="btn_negative">Maybe, next time</string>
     <string name="dialog_title">Please, rate this app</string>
+    <string name="ad_close">[X]  Close</string>
+    <string name="banner_id_playmarket" translatable="false">ca-app-pub-4631424539736494/3422078457</string>
+    <string name="banner_id_amazon" translatable="false">ca-app-pub-4631424539736494/5715309112</string>
 
 </resources>

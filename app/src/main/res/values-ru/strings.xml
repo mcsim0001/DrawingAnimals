@@ -4,4 +4,5 @@
     <string name="btn_positive">Да, мне не трудно!</string>
     <string name="btn_negative">В другой раз..</string>
     <string name="dialog_title">Оцените, пожалуйста, приложение</string>
+    <string name="ad_close">[X] Закрыть</string>
 </resources>

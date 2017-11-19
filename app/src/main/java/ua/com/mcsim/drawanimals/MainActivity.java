@@ -1,6 +1,5 @@
 package ua.com.mcsim.drawanimals;
 
-import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -20,10 +19,11 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.SeekBar;
 import ua.com.mcsim.drawanimals.drawing.PixelPaintView;
+import ua.com.mcsim.drawanimals.utils.BannerActivity;
 import ua.com.mcsim.drawanimals.utils.MultiSlide;
 
 
-public class MainActivity extends Activity implements View.OnClickListener {
+public class MainActivity extends BannerActivity implements View.OnClickListener {
 
 
     private PixelPaintView mPaintView;
@@ -188,6 +188,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
         initializeBottomPanel();
         initializeLeftPanel();
 
+        //Initialize ADs
+        View bannerHolder = findViewById(R.id.banner_view);
+        initializeBanner(bannerHolder);
+
     }
 
     private void initializeBottomPanel() {
@@ -245,10 +249,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     private void gotoMarket() {
         try {
-            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("amzn://apps/android?p=ua.com.mcsim.drawanimals_new14")));
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("amzn://apps/android?p=ua.com.mcsim.drawanimals_new20")));
             //startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=ua.com.mcsim.drawanimals")));
         } catch (android.content.ActivityNotFoundException anfe) {
-            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.amazon.com/gp/mas/dl/android?p=ua.com.mcsim.drawanimals_new14")));
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.amazon.com/gp/mas/dl/android?p=ua.com.mcsim.drawanimals_new20")));
             //startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=ua.com.mcsim.drawanimals")));
         }
     }
